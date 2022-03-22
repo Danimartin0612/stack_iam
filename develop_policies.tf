@@ -9,7 +9,7 @@ module "iam_assumable_role" {
 
   create_role = true
 
-  role_name         = "develop_role"
+  role_name         = "deploy_role"
   role_requires_mfa = true
 
   custom_role_policy_arns = [
